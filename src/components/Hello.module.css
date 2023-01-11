@@ -1,0 +1,9 @@
+.content {
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.colors {
+  background-color: rgb(95, 82, 180);
+  color: springgreen;
+}

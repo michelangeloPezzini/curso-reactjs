@@ -1,3 +1,5 @@
+//Trabalhando com props no projeto para facilitar na chamada de informações
+
 function Pessoa({ nome, idade, profissao }) {
   return (
     <div>

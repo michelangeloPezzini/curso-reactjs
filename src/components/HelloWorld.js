@@ -1,8 +1,10 @@
+//Utilizando Css em react atraves da importacao
+
+import styles from "./Hello.module.css";
 function HelloWorld() {
   return (
-    <div>
-      <h1>Hello World </h1>
-      <p>Olá, tudo bem?</p>
+    <div className={styles.content}>
+      <h1 className={styles.colors}>Hello World </h1>
     </div>
   );
 }
